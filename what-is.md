@@ -2,4 +2,4 @@
 
 TypeScript is...
 
-[< Previous](ReadMe.md) | [Next >](playground.md)
+[< Previous](README.md) | [Next >](playground.md)
