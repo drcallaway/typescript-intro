@@ -1,6 +1,4 @@
----
-title: My custom title
----
+# Introduction
 
 [What is TypeScript?](what-is.md)   
 [TypeScript Playground](playground.md)    
