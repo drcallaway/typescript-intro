@@ -1,3 +1,5 @@
+$large-max-width: 80rem;
+
 @import "normalize";
 @import "rouge-github";
 @import "variables";
@@ -167,7 +169,7 @@ a {
   }
 
   @include large {
-    max-width: 100rem;
+    max-width: $large-max-width;
     padding: 2rem 6rem;
     margin: 0 auto;
     font-size: 1.1rem;
