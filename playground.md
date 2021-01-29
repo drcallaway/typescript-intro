@@ -1,5 +1,10 @@
 # TypeScript Playground
 
-Find playground here...
+[https://www.typescriptlang.org/play](https://www.typescriptlang.org/play)
 
-[< Previous](what-is.md) | [Next >](playground.md)
+* Test small TypeScript programs
+* View compiled JavaScript
+* Export to other online editors
+* Share code snippets with others
+
+[< Previous](index.md) | [Next >](basic-types.md)
