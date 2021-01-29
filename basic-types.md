@@ -1,5 +1,7 @@
 # Basic Types
 
+TypeScript supports all of the standard JavaScript types plus several new ones.
+
 ```javascript
 // boolean
 let isDone: boolean = false;
@@ -12,7 +14,8 @@ let octal: number = 0o755;
 let big: bigint = 9999999n;
 
 // string
-let name: string = 'Elon'; // single or double quotes
+let firstName: string = 'Elon';
+let lastName: string = "Musk";
 
 // array
 let fruit: string[] = ['apple', 'orange', 'pear'];
