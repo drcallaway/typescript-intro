@@ -33,4 +33,4 @@ enum Color {
 let c: Color = Color.Green;
 ```
 
-[< Previous](playground.md) | [Next >](any-and-unknown.md)
+[< Previous](type-declaration-files.md) | [Next >](any-and-unknown.md)
