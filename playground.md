@@ -7,4 +7,4 @@
 * Share code snippets with others
 * View compiled JavaScript and type declarations
 
-[< Previous](index.md) | [Next >](type-declaration-files.md)
+[< Previous](index.md) | [Next >](ts-config.md)
