@@ -91,3 +91,5 @@ Type declaration files allow type information to be added to existing "untyped" 
     ```
 1. Hover over the "add" method to see type information.
 1. Run with: `$ node test.js`
+
+[< Previous](playground.md) | [Next >](basic-types.md)
