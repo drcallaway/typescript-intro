@@ -2,10 +2,6 @@
 
 Type declaration files allow type information to be added to existing "untyped" JavaScript libraries.
 
-## Install TypeScript
-
-
-
 ## Add types to Lodash
 
 1. Create Node project: `$ mkdir test && cd test && npm init -y`
@@ -45,8 +41,9 @@ console.log(chalk.blue(_.camelCase(text)));
 
 ## Create a type declaration file
 
-1. Create a new project: `$ mkdir mylib && cd mylib && npm init -y && tsc --init`
-1. Launch VS Code and created a new TypeScript file:
+1. We'll distribute our own JavaScript library that includes type information.
+1. Create a new project: `$ mkdir mylib && cd mylib && npm init -y && npx tsc --init`
+1. Launch VS Code and create a new TypeScript file:
 ```javascript
 // util.ts
 export function add(x: number, y: number): number {
@@ -57,3 +54,37 @@ export function subtract(x: number, y: number): number {
     return x - y;
 }
 ```
+4. Change "main" property in package.json to util.js and add “files” property:
+```json
+{
+  "name": "mylib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "util.js",
+    "util.d.ts"
+  ]
+}
+```
+5. Compile the TypeScript file and create a declaration file: `$ npx tsc --declaration util.ts`
+1. Package for deployment: `$ npm pack`
+1. Create client project: `$ cd .. && mkdir myclient && cd myclient && npm init -y`
+1. Install library as dependency: `$ npm install ../mylib/mylib-1.0.0.tgz`
+1. Launch VS Code: `$ code .`
+1. Create the following JavaScript file:
+```javascript
+// test.js
+import { add } from 'mylib';
+
+const result = add(2, 3);
+
+console.log(result);
+```
+11. Hover over the "add" method to see type information.
