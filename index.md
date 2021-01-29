@@ -1,8 +1,11 @@
 # What is TypeScript?
 
-TypeScript is:
-* A superset of JavaScript that adds support for types to the language.
-* Documented at <a href="https://www.typescriptlang.org/" target="_blank">https://www.typescriptlang.org/</a>.
-* A way to improve the scalability of large JavaScript projects.
+TypeScript:
+* Is a superset of JavaScript that adds support for types to the language.
+* Is documented at <a href="https://www.typescriptlang.org/" target="_blank">https://www.typescriptlang.org/</a>.
+* Can catch many common errors at compile time.
+* Adds code completion support to many popular code editors.
+* Improves the scalability of large JavaScript projects.
+* Can be adopted gradually.
 
 [Next >](playground.md)
