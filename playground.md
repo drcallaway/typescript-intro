@@ -3,8 +3,8 @@
 <a href="https://www.typescriptlang.org/play" target="_blank">https://www.typescriptlang.org/play</a>
 
 * Test small TypeScript programs
-* View compiled JavaScript and type declarations
 * Export to other online editors
 * Share code snippets with others
+* View compiled JavaScript and type declarations
 
-[< Previous](index.md) | [Next >](basic-types.md)
+[< Previous](index.md) | [Next >](type-declaration-files.md)
