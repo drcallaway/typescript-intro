@@ -41,10 +41,10 @@ let nothing: null = null;
 nothing = 5; // not allowed, variable can only be assigned null
 
 // The undefined and null types may seem pointless at first but we'll later see how they can be used in union types like this:
-let name: string | undefined | null;
-name = 'Elon'; // ok
-name = undefined; // ok
-name = null; // ok
+let firstName: string | undefined | null;
+firstName = 'Elon'; // ok
+firstName = undefined; // ok
+firstName = null; // ok
 ```
 
 [< Previous](type-declaration-files.md) | [Next >](any-and-unknown.md)
