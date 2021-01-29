@@ -23,7 +23,7 @@ console.log(_.camelCase(text));
 1. Missing declaration file warning is gone and code completion is available.
 1. To run: `npx ts-node test.ts`
 
-## Use types in Chalk
+## Use existing types in Chalk
 
 1. Add chalk dependency: `npm install chalk`
 1. Update the test.ts file to use chalk:
