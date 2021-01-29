@@ -27,3 +27,5 @@ if (typeof value === 'string') {
 // type assertion also allows value to be treated as a string
 (value as string).toUpperCase();
 ```
+
+[< Previous](basic-types.md) | [Next >](any-and-unknown.md)
