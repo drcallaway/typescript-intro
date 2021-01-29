@@ -17,3 +17,5 @@ firstName = 'Elon';     // ok
 firstName = undefined;  // ok
 firstName = null;       // ok
 ```
+
+[< Previous](basic-types.md) | [Next >](any-and-unknown.md)
