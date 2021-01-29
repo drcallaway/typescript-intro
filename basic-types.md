@@ -28,8 +28,4 @@ enum Color {
   Blue,
 }
 let c: Color = Color.Green;
-
-// any
-let value: any = 'Hello';
-value = 5;
 ```
