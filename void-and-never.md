@@ -27,3 +27,5 @@ function infinite(): never {
   }
 }
 ```
+
+[< Previous](any-and-unknown.md) | [Next >](void-and-never.md)
