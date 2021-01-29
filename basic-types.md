@@ -2,7 +2,7 @@
 
 TypeScript supports all of the standard JavaScript types plus several new ones.
 
-```javascript
+```typescript
 // boolean
 let isDone: boolean = false;
 
