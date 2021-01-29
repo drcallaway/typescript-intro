@@ -5,3 +5,5 @@ A TypeScript project typically includes a configuration file named `ts-config.js
 ```shell
 $ npx tsc --init
 ```
+
+[< Previous](playground.md) | [Next >](type-declaration-files.md)
