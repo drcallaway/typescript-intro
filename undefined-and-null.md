@@ -1,6 +1,6 @@
 # Undefined and Null
 
-The "undefined" type represents a variable that hasn't been assigned and "null" indicates a variable that has been specifically assigned to nothing.
+The "undefined" type represents a variable that hasn't been assigned and "null" indicates a variable that has been assigned to nothing.
 
 ## undefined
 
