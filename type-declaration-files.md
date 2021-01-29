@@ -74,6 +74,7 @@ export function subtract(x: number, y: number): number {
 }
 ```
 5. Compile the TypeScript file and create a declaration file: `$ npx tsc --declaration util.ts`
+1. Open "util.d.ts" to view the type declaration file.
 1. Package for deployment: `$ npm pack`
 1. Create client project: `$ cd .. && mkdir myclient && cd myclient && npm init -y`
 1. Install library as dependency: `$ npm install ../mylib/mylib-1.0.0.tgz`
@@ -87,4 +88,4 @@ const result = add(2, 3);
 
 console.log(result);
 ```
-11. Hover over the "add" method to see type information.
+12. Hover over the "add" method to see type information.
