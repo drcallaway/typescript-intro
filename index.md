@@ -6,6 +6,7 @@ TypeScript:
 * Can catch many common errors at compile time.
 * Adds code completion support to many popular code editors.
 * Improves the scalability of large JavaScript projects.
+* Compiles to standard JavaScript.
 * Can be adopted gradually.
 * Recently placed second in a popular <a href="https://insights.dice.com/2020/05/29/10-most-loved-programming-languages-rust-typescript-more/" target="_blank">"most loved language" survey</a>.
 
