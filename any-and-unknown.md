@@ -28,4 +28,4 @@ if (typeof value === 'string') {
 (value as string).toUpperCase();
 ```
 
-[< Previous](undefined-and-null.md) | [Next >](any-and-unknown.md)
+[< Previous](undefined-and-null.md) | [Next >](void-and-never.md)
