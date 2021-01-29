@@ -8,7 +8,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 1. Create TypeScript config file: `$ npx tsc --init`
 1. Add Lodash dependency: `$ npm install lodash`
 1. Create simple JavaScript file:
-    ```javascript
+    ```typescript
     // test.ts
     import * as _ from 'lodash';
 
@@ -27,7 +27,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 
 1. Add chalk dependency: `npm install chalk`
 1. Update the test.ts file to use chalk:
-    ```javascript
+    ```typescript
     // test.ts
     import * as _ from 'lodash';
     import chalk from 'chalk';
@@ -44,7 +44,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 1. We'll distribute our own JavaScript library that includes type information.
 1. Create a new project: `$ mkdir mylib && cd mylib && npm init -y && npx tsc --init`
 1. Launch VS Code and create a new TypeScript file:
-    ```javascript
+    ```typescript
     // util.ts
     export function add(x: number, y: number): number {
         return x + y;
