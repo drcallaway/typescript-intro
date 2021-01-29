@@ -82,10 +82,12 @@ export function subtract(x: number, y: number): number {
 1. Create the following JavaScript file:
 ```javascript
 // test.js
-import { add } from 'mylib';
+const mylib = require('mylib');
 
-const result = add(2, 3);
+const addResult = mylib.add(2, 3);
+const subtractResult = mylib.subtract(10, 4);
 
-console.log(result);
+console.log(addResult, subtractResult);
 ```
 12. Hover over the "add" method to see type information.
+1. Run with: `$ node test.js`
