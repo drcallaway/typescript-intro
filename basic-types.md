@@ -38,6 +38,7 @@ student = [ 'Billy', 10 ];  // ok, arrays are objects
 student = () => 'Billy';    // ok, functions are objects
 student = 'Billy';          // not allowed (primitive type)
 student = 5;                // not allowed (primitive type)
+student = true;             // not allowed (primitive type)
 ```
 
 [< Previous](type-declaration-files.md) | [Next >](undefined-and-null.md)
