@@ -1,6 +1,6 @@
 # TypeScript Playground
 
-[https://www.typescriptlang.org/play](https://www.typescriptlang.org/play)
+<a href="https://www.typescriptlang.org/play" target="_blank">https://www.typescriptlang.org/play</a>
 
 * Test small TypeScript programs
 * View compiled JavaScript and type declarations
