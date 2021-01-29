@@ -2,7 +2,7 @@
 
 Type declaration files allow type information to be added to existing "untyped" JavaScript libraries.
 
-## Add types to Lodash
+## Exercise: Add types to Lodash
 
 1. Create Node project: `$ mkdir test && cd test && npm init -y`
 1. Create TypeScript config file: `$ npx tsc --init`
@@ -23,7 +23,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 1. Missing declaration file warning is gone and code completion is available.
 1. To run: `npx ts-node test.ts`
 
-## Use existing types in Chalk
+## Exercise: Use existing types in Chalk
 
 1. Add chalk dependency: `npm install chalk`
 1. Update the test.ts file to use chalk:
@@ -39,7 +39,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 1. Run to see chalk in action: `$ npx ts-node test.ts`
 1. Chalk is a JavaScript library that ships with a type declaration file (see `node_modules/chalk/index.d.ts`).
 
-## Create a type declaration file
+## Exercise: Create a type declaration file
 
 1. We'll distribute our own JavaScript library that includes type information.
 1. Create a new project: `$ mkdir mylib && cd mylib && npm init -y && npx tsc --init`
