@@ -18,7 +18,7 @@ let nothing: null = null;
 nothing = 5; // not allowed, variable can only be assigned to null
 ```
 
-## purpose
+## Why do these types exist?
 ```typescript
 // The undefined and null types may seem pointless at first but we'll later see how they can be used in union types like this:
 let firstName: string | undefined | null;
