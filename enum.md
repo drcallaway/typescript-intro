@@ -66,7 +66,7 @@ const enum Color {
 
 const color: Color = Color.RED;
 ```
-The constant enum above simply compiles to:
+The constant enum above is compiled to this JavaScript:
 ```javascript
 "use strict";
 const color = "red" /* RED */;
