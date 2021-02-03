@@ -73,3 +73,5 @@ The constant enum above is compiled to this JavaScript:
 "use strict";
 const color = "red" /* RED */;
 ```
+
+[< Previous](void-and-never.md)
