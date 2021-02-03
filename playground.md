@@ -1,5 +1,7 @@
 # TypeScript Playground and TS Node
 
+The TypeScript Playground and TS Node are useful tools when learning and running TypeScript programs.
+
 ## Playground
 
 <a href="https://www.typescriptlang.org/play" target="_blank">https://www.typescriptlang.org/play</a>
