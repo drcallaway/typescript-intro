@@ -21,9 +21,9 @@ $ npx tsc --init
 
 See the ts-config reference here: <a href="https://www.typescriptlang.org/tsconfig" target="_blank">https://www.typescriptlang.org/tsconfig</a>
 
-When the `npx tsc` command is run...
-* The compiler searches for `ts-config.json` first in the current directory and then up the directory tree
-* It compiles all `*.ts` files recursively starting from the root directory (if using default config file settings)
+When the `npx tsc` command is run, the compiler...
+* Searches for `ts-config.json` first in the current directory and then up the directory tree
+* Compiles all `*.ts` files recursively starting from the root directory (if using default config file settings)
 
 Common `ts-config.json` settings include:
 * `files` - static list of files to be compiled
