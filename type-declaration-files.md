@@ -20,7 +20,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 1. Type declaration files are available from <a href="https://definitelytyped.org/" target="_blank">Definitely Typed</a>.
 1. Click "@types package search page" to search for a Lodash type file.
 1. Install Lodash types: `npm install -D @types/lodash`
-1. Missing declaration file warning is gone and code completion is available.
+1. Missing declaration file warning is gone and code completion is available. Note new directory at `node_modules/@types/lodash`.
 1. To run: `npx ts-node test.ts`
 
 ## Exercise: Use existing types in Chalk
