@@ -23,7 +23,7 @@ See the ts-config reference here: <a href="https://www.typescriptlang.org/tsconf
 
 When the `npx tsc` command is run...
 * The compiler searches for `ts-config.json` first in the current directory and then up the directory tree
-* By default, it compiles all `*.ts` files recursively starting from the root directory
+* It compiles all `*.ts` files recursively starting from the root directory (if using default config file settings)
 
 Common `ts-config.json` settings include:
 * `files` - static list of files to be compiled
