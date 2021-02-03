@@ -3,6 +3,8 @@
 TypeScript enums are compiled into JavaScript classes.
 
 ## Numeric values
+Numeric values automatically increment from the starting value. If not specified, starting value is zero.
+
 ```typescript
 enum Color {
   RED = 1,
