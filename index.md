@@ -2,6 +2,7 @@
 
 TypeScript...
 * Is a superset of JavaScript that adds support for types to the language.
+* Was developed by Microsoft starting in 2012 and lead by Anders Hejlsberg (lead architect of C#).
 * Is documented at <a href="https://www.typescriptlang.org/" target="_blank">https://www.typescriptlang.org/</a>.
 * Can catch many common errors at compile time.
 * Adds code completion support to many popular code editors.
