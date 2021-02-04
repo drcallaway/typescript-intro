@@ -4,7 +4,7 @@ TypeScript compiler options can be specified on the command-line or in a configu
 ## Compile using command-line options
 The following command does not use the `ts-config.json` file.
 ```shell
-$ npx tsc --outDir dist mylib.ts myclient.ts
+$ npx tsc mylib.ts myclient.ts
 ```
 The JavaScript version output can be configured with the `--target` option (defaults to ES5). Consider the following TypeScript:
 ```typescript
