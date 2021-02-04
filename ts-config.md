@@ -6,6 +6,23 @@ The following command does not use the `ts-config.json` file.
 ```shell
 $ npx tsc --outDir dist mylib.ts myclient.ts
 ```
+The JavaScript version output can be configured with the `--target` option (defaults to ES5). Consider the following TypeScript:
+```typescript
+// greet.ts
+const greet = (name: string): void => console.log(`Hello ${name}!`);
+```
+By default, the compiler will produce this JavaScript:
+```shell
+$ npx tsc greet.ts
+$ cat greet.js
+var greet = function (name) { return console.log("Hello " + name + "!"); };
+```
+Targeting ES6 produces a different result:
+```shell
+$ npx tsc --target es6 greet.ts
+$ cat greet.js
+const greet = (name) => console.log(`Hello ${name}!`);
+```
 See the command-line options here: <a href="https://www.typescriptlang.org/docs/handbook/compiler-options.html" target="_blank">https://www.typescriptlang.org/docs/handbook/compiler-options.html</a>
 
 ## Compile using `ts-config.json`
