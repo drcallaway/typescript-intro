@@ -7,7 +7,7 @@ TypeScript...
 * Adds code completion support to many popular code editors.
 * Improves the scalability of large JavaScript projects.
 * Compiles to standard JavaScript.
-* Can be adopted gradually.
+* Adds optional typing that can be adopted gradually.
 * Can add type information to existing "untyped" JavaScript libraries.
 * Recently placed second in a popular <a href="https://insights.dice.com/2020/05/29/10-most-loved-programming-languages-rust-typescript-more/" target="_blank">"most loved language" survey</a>.
 
