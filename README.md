@@ -5,7 +5,7 @@ Entry point is [index.md](index.md).
 View web site at [https://drcallaway.github.io/typescript-intro/](https://drcallaway.github.io/typescript-intro/).
 
 * What is?
-* Playground and TS Node
+* Playground, TS Node, and Deno
 * TS config compiler options
 * Declaration files
 * Basic types
