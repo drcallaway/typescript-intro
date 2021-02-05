@@ -25,7 +25,7 @@ const greet = (name) => console.log(`Hello ${name}!`);
 ```
 See the command-line options here: <a href="https://www.typescriptlang.org/docs/handbook/compiler-options.html" target="_blank">https://www.typescriptlang.org/docs/handbook/compiler-options.html</a>
 
-## Compile using `ts-config.json`
+## Compile using ts-config
 A `ts-config.json` file...
 * Indicates the root directory of a TypeScript project
 * Specifies the files and compiler options required to build the project
