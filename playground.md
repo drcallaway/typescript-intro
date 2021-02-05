@@ -17,6 +17,7 @@ The TypeScript Playground, TS Node, and Deno are useful tools for learning and r
 
 * Run TypeScript code in Node without compiling
     ```shell
+    $ npm init -y && npm install -D typescript
     $ npx ts-node myscript.ts
     ```
 * Run as REPL
