@@ -7,6 +7,7 @@ Type declaration files allow type information to be added to existing "untyped" 
 1. Create Node project: `$ mkdir test && cd test && npm init -y`
 1. Create TypeScript config file: `$ npx tsc --init`
 1. Add Lodash dependency: `$ npm install lodash`
+1. Load in VS Code: `$ code .`
 1. Create simple JavaScript file:
     ```typescript
     // test.ts
@@ -15,7 +16,6 @@ Type declaration files allow type information to be added to existing "untyped" 
     const text = "this is a test";
     console.log(_.camelCase(text));
     ```
-1. Load in VS Code: `$ code .`
 1. Hover over "lodash" in the import and notice missing declaration file.
 1. Type declaration files are available from <a href="https://definitelytyped.org/" target="_blank">Definitely Typed</a>.
 1. Click "@types package search page" to search for a Lodash type file.
