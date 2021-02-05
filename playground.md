@@ -1,6 +1,6 @@
-# TypeScript Playground and TS Node
+# TypeScript Playground, TS Node, and Deno
 
-The TypeScript Playground and TS Node are useful tools when learning and running TypeScript programs.
+The TypeScript Playground, TS Node, and Deno are useful tools for learning and running TypeScript programs.
 
 ## Playground
 
@@ -16,13 +16,13 @@ The TypeScript Playground and TS Node are useful tools when learning and running
 <a href="https://github.com/TypeStrong/ts-node" target="_blank">https://github.com/TypeStrong/ts-node</a>
 
 * Run TypeScript code in Node without compiling
-    ```
+    ```shell
     $ npx ts-node myscript.ts
     ```
 * Run as REPL
-    ```
+    ```shell
     $ npx ts-node
-    > function greet(name: string) {
+    > function greet(name: string): void {
     ... console.log(`Hello ${name}!`);
     ... }
     undefined
@@ -32,5 +32,17 @@ The TypeScript Playground and TS Node are useful tools when learning and running
     > greet(1);
     [eval].ts:5:7 - error TS2345: Argument of type '1' is not assignable to parameter of type 'string'.
     ```    
+
+## Deno
+
+<a href="https://deno.land/">https://deno.land/</a>
+
+Deno is a modern JavaScript runtime similar to Node.js but supports TypeScript out-of-the-box.
+
+* Run TypeScript code in Deno without compiling
+    ```shell
+    $ deno run myscript.ts
+    ```
+* The Deno REPL does not yet support TypeScript
 
 [< Previous](index.md) | [Next >](ts-config.md)
