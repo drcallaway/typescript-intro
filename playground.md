@@ -36,7 +36,7 @@ The TypeScript Playground, TS Node, and Deno are useful tools for learning and r
 
 ## Deno
 
-<a href="https://deno.land/">https://deno.land/</a>
+<a href="https://deno.land/" target="_blank">https://deno.land/</a>
 
 Deno is a modern JavaScript runtime similar to Node.js but supports TypeScript out-of-the-box.
 
